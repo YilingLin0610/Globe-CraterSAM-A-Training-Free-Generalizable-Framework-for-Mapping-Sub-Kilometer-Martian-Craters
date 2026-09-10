@@ -1,6 +1,6 @@
 # Globe-CraterSAM
 
-This repository provides the code and datasets used in Globe-CraterSAM for sub-kilometer Martian crater mapping.
+This repository provides the main code and benchmark datasets associated with Globe-CraterSAM, a training-free framework for sub-kilometer Martian crater mapping.
 
 ## Code
 
@@ -17,6 +17,8 @@ The codes used to calculate illumination azimuth, elevation, and the related sph
 The Segment Anything Model code is based on the official implementation:
 
 [facebookresearch/segment-anything](https://github.com/facebookresearch/segment-anything)
+
+The batch-processing scripts used to apply SAM to the Martian imagery are provided in the `SAM` folder.
 
 ### 3. Post-processing
 
